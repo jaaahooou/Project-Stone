@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color:grey;
+}
+p{display: block;}
+.page_content_wrapper{
+    position: relative;
+    display: block;
+    top: 80px;
+    width: 1100px;
+    min-height: calc(100vh - 80px);
+    background-color: white;
+    margin: 0px auto 0px auto;
+    
+    
+}
+
+.historia-plytek{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    top:30px;
+    width: 100%;
+
+}
+.holder{
+    position:relative; 
+    margin-top: 10px; 
+    text-align: justify;
+   
+}
+.main-header{
+    
+    position:relative;  
+    display:block;
+    
+}
+h1{
+    color:rgb(0, 255, 200);
+    text-transform: uppercase;
+   font-weight: lighter;
+}
+
+.post-holder{
+    display: flex;
+    margin:20px 0 20px 0;
+}
+
+
+
+.image-left{
+    height: 250px;
+    width: 35%;
+    
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.image-right{
+    height: 250px;
+    width: 35%;
+    
+    background-size: cover;
+    margin-left: 10px;
+
+}
+.img-1{
+    background-image: url('/img/about_tiles/img/Fragment-Bramy-Isztar-FOTER-700x440.jpg');
+}
+
+.img-2{
+    background-image: url('/img/about_tiles/img/Alhambra-Mexuar-FOTER-700x469.jpg');
+}
+
+.img-3{
+    background-image: url('/img/about_tiles/img/Delft-Przypowieść-o-Samarytaninie-FOTER-700x714.jpg');
+    height:400px;
+}
+.article-holder-right{
+ width: 65%;
+ text-align: justify;
+ margin: auto 0px auto 20px;
+}
+
+.article-holder-left{
+    width: 65%;
+    text-align: justify;
+    margin: auto 20px auto 0px;
+   }
+
+.last-article{
+       margin-bottom:15px;
+   }
+
+
+
+

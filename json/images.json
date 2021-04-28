@@ -1,0 +1,168 @@
+
+{
+    "message": {
+
+
+    "Annapurna Gris 120x60 ": {
+      "colourss" : ["szary"],
+      "styles" : ["modern", "loft"],
+      "nameOfTile": "Annapurna Gris 120x60 ",
+      "url": "/img/inspirations/amb-grespania-annapurna-gris_2_web.jpg"
+    },
+
+    "Artic Antracita 120x60": {
+      "colourss" : ["szary","czarny"],
+      "styles" : ["modern", "loft"],
+      "nameOfTile": "Artic Antracita 120x60",
+      "url": "/img/inspirations/ambiente-artic-antracita-80x160_web.jpg"
+    },
+
+    "Annapurna Negro 120x60": {
+      "colourss" : ["szary","czarny"],
+      "styles" : ["modern", "loft"],
+      "nameOfTile": "Annapurna 120x60",
+      "url": "/img/inspirations/amb-grespania-annapurna-negro_2_web.jpg"
+    },
+     
+      "Alpes Negro 120x60": {
+      "colourss" : ["czarny"],
+      "styles" : ["modern", "loft"],
+      "nameOfTile": "Alpes Negro 120x60",
+      "url": "/img/inspirations/ambiente-salon-alpes_web.jpg"
+        
+    },
+
+    "Mitica Blanco 120x120": {
+      "colourss" : ["szary","biały"],
+      "styles" : ["modern", "loft"],
+      "nameOfTile": "Mitica Blanco 120x120",
+      "url": "/img/inspirations/amb-mitica-120x120-blanco_web.jpg"
+    },
+
+    "Mitica Gris 120x120": {
+      "colourss" : ["szary"],
+      "styles" : ["modern", "loft"],
+      "nameOfTile": "Mitica Gris 120x120",
+      "url": "/img/inspirations/amb-mitica-120x120-gris_web.jpg"
+    },
+
+
+    "Volga": {
+      "colourss" : ["szary"],
+      "styles" : ["modern", "loft"],
+      "nameOfTile": "Volga Gris Naturale 120x20",
+      "url": "/img/inspirations/amb-ban-o-grespania-volga-gris-natural-60x120_web.jpg"
+
+    },
+
+    "Patagonia roble": {
+      "colourss" : ["szary","modern"],
+      "styles" : ["klasyczny"],
+      "nameOfTile": "Patagonia roble",
+      "url": "/img/inspirations/patagonia-roble-genral_web.jpg"
+  
+    },
+    "Calacata Gold 120x120": {
+      "colourss" : ["biały","złoty","brązowy"],
+      "styles" : ["klasyczny","retro","art deco","glamour"],
+      "nameOfTile": "Calacata Gold 120x120",
+      "url": "/img/inspirations/amb-calacata-gold-120x120-ok_web.jpg"
+    
+    },
+    "Corinto 119x119": {
+      "colourss" : ["biały","złoty","brązowy"],
+      "styles" : ["klasyczny","modern"],
+      "nameOfTile": "Corinto 119x119",
+      "url": "/img/inspirations/amb-corinto-119x119-pulido_web.jpg"
+    
+    },
+    "Cuarzo Reno 119x119": {
+      "colourss" : ["biały","złoty","brązowy"],
+      "styles" : ["klasyczny","modern"],
+      "nameOfTile": "Cuarzo Reno 119x119",
+      "url": "/img/inspirations/ambiente-cuarzo-reno-120x120-ok_web.jpg"
+    
+    },
+    "Abadia fuego": {
+      "colourss" : ["biały","złoty","brązowy"],
+      "styles" : ["klasyczny","retro"],
+      "nameOfTile": "Abadia fuego",
+      "url": "/img/inspirations/v.abadia-fuego_web.jpg"
+        
+    },
+    "Marmorea Carrara": {
+      "colourss" : ["biały","złoty","czarny"],
+      "styles" : ["modern","art deco","retro"],
+      "nameOfTile": "Marmorea Carrara",
+      "url": "/img/inspirations/amb-marmorea-carrara-marquina-2_web.jpg"
+        
+    },
+    "Marmorea Marquina": {
+      "colourss" : ["biały","złoty","czarny"],
+      "styles" : ["modern","art deco","retro"],
+      "nameOfTile": "Marmorea Marquina",
+      "url": "/img/inspirations/amb-marmorea-estatuario-marquina-100-capitel-cronos-pav-marmorea-marquina-pulido-59x59_web.jpg"
+        
+    },
+    "Sentelmo": {
+      "colourss" : ["biały","szary","czarny"],
+      "styles" : ["modern","retro"],
+      "nameOfTile": "Marmorea Marquina",
+      "url": "/img/inspirations/amb-santelmo-blanco-negro-pav-bolshoi-01-negro_web.jpg"
+        
+    },
+    "Boheme": {
+      "colourss" : ["biały","niebieski","beżowy"],
+      "styles" : ["boho","retro","rustykalny"],
+      "nameOfTile": "Boheme",
+      "url": "/img/inspirations/amb-condal-03-boheme-beig-selva-teca_web.jpg"
+        
+    },
+    "Icon Liceo": {
+      "colourss" : ["brązowy","beżowy","biały"],
+      "styles" : ["boho","retro"],
+      "nameOfTile": "Icon Liceo",
+      "url": "/img/inspirations/amb-icon-liceo-mix-nude_web.jpg"
+        
+    },
+    "Treviso Mix Brown": {
+      "colourss" : ["brązowy","beżowy","biały"],
+      "styles" : ["boho","retro","rustykalny"],
+      "nameOfTile": "Treviso Mix Brown",
+      "url": "/img/inspirations/amb-treviso-mix-brown-20x20_web.jpg"
+        
+    },
+    "Grao Blanco Tabaraca": {
+      "colourss" : ["brązowy","beżowy","zielony"],
+      "styles" : ["boho","retro","art deco"],
+      "nameOfTile": "Grao Blanco Tabaraca",
+      "url": "/img/inspirations/amb-grao-blanco-tabarca-menta_web.jpg"
+        
+    },
+    "Gracia": {
+      "colourss" : ["biały","złoty","niebieski"],
+      "styles" : ["boho","retro","art deco"],
+      "nameOfTile": "Gracia",
+      "url": "/img/inspirations/amb-icon-gracia-blanco-navy-pav-liceo-01-navy_web.jpg"
+        
+    },
+    "Rambla": {
+      "colourss" : ["zielony","brązowy","złoty"],
+      "styles" : ["boho","modern","art deco"],
+      "nameOfTile": "Rambla",
+      "url": "/img/inspirations/amb-icon-rambla-esmeralda-pav-selva-teca_web.jpg"
+        
+    },
+    "Astra White": {
+      "colourss" : ["niebieski","biały","czarny"],
+      "styles" : ["modern","art deco"],
+      "nameOfTile": "Astra White",
+      "url": "/img/inspirations/amb-grespania-astra-white-lexington-chrysler-pav-annapurna-negro_web.jpg"
+        
+    }
+  
+  
+  },
+  "status": "success"
+}
+

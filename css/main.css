@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --item-width: calc(100% - 10px);
+    --item-height: calc(100% - 10px);
+}
+
+.hidden {
+    display: none;
+}
+
+@font-face {
+    font-family: 'leagueSpartan';
+    src: url('/fonts/LeagueSpartan-Bold.otf')
+}
+
+.page {
+    position: relative;
+}
+
+.main_page_content_wrapper {
+    position: relative;
+    top: 80px;
+    color: black;
+    height: 1800px;
+}
+
+ul.product_list {
+    position: relative;
+    display: block;
+    width: 1600px;
+    background-color: white;
+    margin: 10px auto 10px auto;
+}
+
+.product {
+    position: absolute;
+    display: block;
+    border: 1px solid lightgrey;
+    list-style: none;
+}
+
+.product:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.white {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+.button {
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.item_1_background,
+.item_2_background,
+.item_3_background,
+.item_4_background,
+.item_5_background,
+.item_6_background,
+.item_7_background,
+.item_8_background,
+.item_9_background {
+    width: var(--item-width);
+    height: var(--item-height);
+    margin: 5px;
+    background-size: cover;;
+}
+
+h1.item_description {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 40px;
+    color: grey;
+}
+
+li.item_1 {
+    width: 800px;
+    height: 800px;
+}
+
+.item_1_background {
+    width: var(--item-width);
+    height: var(--item-height);
+    margin: 5px;
+    background-image: url('/img/main-site/ambiente-cuarzo-reno-120x120-ok_web.jpg');
+}
+
+.item_1_descritpion {
+    position: absolute;
+    width: var(--item-width);
+    bottom: 0;
+    height: 40px;
+    background-color: #fff;
+}
+
+li.item_2 {
+    width: 400px;
+    height: 400px;
+    left: 800px;
+}
+
+.item_2_background {
+    width: var(--item-width);
+    height: var(--item-height);
+    margin: 5px;
+    background-image: url('/img/main-site/amb-loire-arena_web.jpg');
+    
+}
+
+li.item_3 {
+    width: 400px;
+    height: 400px;
+    right: 0;
+}
+
+.item_3_background {
+    background-image: url('/img/main-site/ambiente-artic-antracita-80x160_web.jpg');
+    
+}
+
+li.item_4 {
+    width: 800px;
+    height: 400px;
+    right: 0;
+    top: 400px;
+}
+
+.item_4_background {
+    background-image: url('/img/main-site/detalle-gala-balnco-31-5x100-penelope-blanco-31-5x100_web.jpg');
+    
+}
+
+li.item_5 {
+    width: 500px;
+    height: 800px;
+    left: 0;
+    top: 800px;
+}
+
+.item_5_background {
+    background-image: url('/img/main-site/Ragno_Look_011.jpg.1920x0_q75_crop.jpg');
+}
+
+li.item_6 {
+    width: 550px;
+    height: 400px;
+    left: 500px;
+    top: 800px;
+}
+
+.item_6_background {
+    background-image: url('/img/main-site/amb-grespania-patagonia-casta-o_web.jpg');
+}
+
+li.item_7 {
+    width: 550px;
+    height: 400px;
+    right: 0px;
+    top: 800px;
+}
+
+.item_7_background {
+    background-image: url('/img/main-site/c.abadia-fuego_web.jpg');
+}
+
+li.item_8 {
+    width: 1100px;
+    height: 400px;
+    right: 0px;
+    top: 1200px;
+}
+
+.item_8_background {
+    background-image: url('/img/main-site/volcano-web.jpg');
+}
+
+.footer {
+    position: relative;
+    top: 1620px;
+    height: 150px;
+    width: 1600px;
+    margin: auto;
+    background-color: grey;
+}

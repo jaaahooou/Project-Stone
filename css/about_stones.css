@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.about_stones_wrapper {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: 1;
+}
+
+.about_stones_dots_wrapper {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50vh;
+    left: 10px;
+    transform: translate(0, -50%);
+    z-index: inherit;
+}
+
+.stones_dot {
+    height: 15px;
+    width: 15px;
+    margin: 3px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.about_stones_main_content_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.stones_1,
+.stones_2,
+.stones_3,
+.stones_4 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.stones_1 {
+    background-color: red;
+    overflow: hidden;
+}
+
+.stones_2 {
+    background-color: blue;
+}
+
+.stones_3 {
+    background-color: yellow;
+}
+
+.stones_4 {
+    background-color: green;
+}

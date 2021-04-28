@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+   
+}
+
+.page{
+    min-height: 100vh;
+}
+
+.page_content_wrapper{
+   
+    top: 80px;
+    width: 1600px;
+    min-height: calc(100vh - 80px);
+    
+    margin: 0px auto 0px auto;
+}
+
+.header_wrapper{
+    min-height: 680px;
+}
+
+
+.header_image{
+    position:relative;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    background-image: url('/img/about_large_format_tiles/neolith-spieki-kwarcowe-calacatta-plyta-kamienna.jpg');
+    background-size: cover;
+
+}
+
+
+
+.header_article,
+.header_content{
+    position:absolute;
+    height: 400px;
+    width:650px;
+    top:65%;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid grey;
+}
+.header_content{
+    width:400px
+}
+
+.header_article{
+    left:200px;
+    
+}
+.header_article p{
+    display: block;
+    color:black;
+    font-size: 20px;
+    margin:40px;
+    margin-top: 80px;
+    margin-bottom:80px;
+    text-align: justify;
+    
+    
+    
+
+}
+
+.header_content{
+right: 200px;
+z-index:4;
+
+}
+
+.mobile-navigation-wrapper{
+    display:none;
+}
+
+/* ======= Header Content ======= */
+
+.header_content_navigation{
+    z-index:3
+}
+
+.three{
+    cursor: pointer;
+}
+
+.one{
+    width: 100%;
+    z-index:555;
+}
+

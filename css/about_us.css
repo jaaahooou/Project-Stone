@@ -1,0 +1,21 @@
+.about_us {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-color: lightgrey;
+    z-index: 1;
+}
+
+.dots_wrapper_vertical {
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 30px;
+    align-items: center;
+    bottom: 50vh;
+    right: 0;
+    transform: translateY(50%);
+    background-color: red;
+}

@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'leagueSpartan';
+    src: url('/fonts/LeagueSpartan-Bold.otf')
+}
+
+.menu_element_active {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+/* ---------  SIDEBAR  ---------  */
+
+.inspirations_page_content_wrapper {
+    position: relative;
+    display: block;
+    top: 80px;
+    width: 1600px;
+    /* height: 100vh; */
+    background-color: white;
+    margin: 0px auto 0px auto;
+    border-left: 1px solid grey;
+}
+
+.inspirations_sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: calc(100vh - 80px);
+    width: 150px;
+    background-color: white;
+    border-right: 1px solid grey
+}
+
+.styles_wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colour_wrapper {
+    margin-top: 50px;
+}
+
+.styles_element,
+.colour_element {
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    background-color: white;
+    color: grey;
+    margin: 2px 0;
+    text-transform: uppercase;
+}
+
+.styles_element:hover,
+.colour_element:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.active_sidebar_element {
+    color: black;
+}
+/* ---------  INSPIRTIONS CONTENT  ---------  */
+
+.inspirations_content{
+    display:flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 1450px;
+    min-height: calc(100vh - 80px - 150px);
+    top: 0px;
+    left: 150px;
+    border-right: 1px solid grey;
+   
+    
+}
+
+.inspirations_content-tile{
+    position:relative;
+    background-color: grey;
+    margin: 2px;
+    height: 500px;
+    background-size:cover;
+    flex: 33.3%;
+    margin:10px;
+    
+}
+
+.inspirations_content-tile::after{
+   content:"";
+   position:absolute;
+   border:1px solid grey;
+   top:-6px;
+   left:-6px;
+   bottom:-6px;
+   right:-6px;
+
+}
+
+
+
+
+
+
+
+/* ---------  FOOTER  ---------  */
+
+.footer {
+    position:absolute;
+    background-color: darkgray;
+    height: 150px;
+    width:calc(100% - 150px);
+    width:1450px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    line-height: 150px;
+    bottom:-150px;
+    border-right: 1px solid grey;
+}

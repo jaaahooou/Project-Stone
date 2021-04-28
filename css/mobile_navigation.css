@@ -1,0 +1,171 @@
+.mobile-navigation-wrapper{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: 100vw;
+    
+   
+    z-index:2;
+}
+
+.contact{
+    display:flex;
+
+    justify-content: space-around;
+    background-color: #fff;
+    z-index: 2;
+    
+}
+
+.mobile-navigation{
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    padding:5px 10px 5px 10px;
+    height: 36px;
+    width: 90vw;
+    background-color:rgb(0, 0, 0);
+    margin:10px auto 0 auto;
+    border-radius: 3px;
+ 
+    
+}
+
+
+
+.hamburger,
+.hamburger-menu-is-opened{
+  
+    position:relative;
+    height: 100%;
+    top:-1px;
+    z-index:2;
+    color: white;
+} 
+
+
+
+
+.fa-bars{
+    position: absolute;
+    /* bottom: 0px; */
+}  
+
+.hamburger-menu-is-opened{
+    position:absolute;
+    top:7px;
+    left: 7px;
+    width: 37px;
+    margin-right:0;
+}
+
+.mobile-menu-is-active{
+    animation: openMobileMenu 0.3s forwards;
+
+}
+
+.mobile-menu-is-inactive{
+    animation: closeMobileMenu 0.3s forwards;
+}
+
+
+
+
+.menu__wrapper{
+    display:none;
+}
+
+
+.hidden{
+    display:none;
+}
+
+
+.mobile-navigation-content-wrapper{
+    position:relative;
+    top:50px;
+     opacity:0;
+
+}
+
+.mobile-menu-button{
+    text-align: center;
+    line-height: 3rem;
+    border-top:1px solid grey;
+    
+       
+}
+
+.last-item-of-mobile-menu{
+    border-bottom:1px solid grey;
+}
+
+
+.rendering-buttons{
+    animation : renderingButtons 0.3s forwards;
+}
+
+.social-media-buttons-for-mobile-navigation{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom:10px;
+}
+
+.instagram-button-mobile,
+.facebook-button-mobile{
+    height: 42px;
+    width: 38px;
+    border-radius: 3px;
+
+}
+
+.instagram-button-mobile{
+    bottom: 0px;
+   
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.facebook-button-mobile{
+    /* position:absolute; */
+  
+    background-color: #3b5998;
+        
+}
+
+.fa-facebook-square{
+    padding:auto    ;
+}
+
+
+@keyframes renderingButtons{
+    100%{
+        opacity:1;
+    }
+}
+
+
+
+@keyframes openMobileMenu{
+    100%{
+      
+        height: 70vh;
+      
+    }
+}
+
+@keyframes closeMobileMenu {
+    0%{
+        height: 70vh;
+    }
+    100% {
+        height: 36px;
+       
+    }
+}

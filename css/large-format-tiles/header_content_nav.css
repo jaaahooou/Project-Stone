@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+.header_content_navigation{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+/* .one::before{
+    content:"1. "
+}
+
+.two::before{
+    content:"2. "
+}
+.three::before{
+    content:"3. "
+}
+
+.four::before{
+    content:"4. "
+}
+
+.five::before{
+    content:"5. "
+}
+
+.six::before{
+    content:"6. "
+} */
+
+.header_content_navigation div{
+    line-height: 30px;
+    color:black;
+  height: 100%;
+   
+}
+
+.header_content_navigation_wrapper{
+    height: 100%;
+    width: 90%;
+    position:relative;
+    margin:auto 20px auto 20px;
+    top:50%;
+    transform: translate(0,-50%);
+   
+}
+
+

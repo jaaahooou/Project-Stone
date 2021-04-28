@@ -1,0 +1,24 @@
+.page_content_wrapper{
+    width: 1400px;
+    
+}
+
+
+.header_wrapper{
+    width: 1400px;
+    margin:auto;
+}
+
+.header_image{
+    width: 1400px;
+}
+
+.header_article{
+    width: 450px;
+    
+}
+
+.header_article p{
+    margin-top:20px;
+}
+

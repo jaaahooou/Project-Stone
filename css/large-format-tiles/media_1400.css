@@ -1,0 +1,41 @@
+
+
+.page_content_wrapper{
+    width: 1005px;
+    
+    
+}
+
+
+.header_wrapper{
+    width: 1005px;
+    margin:auto;
+}
+
+.header_image{
+    width: 1005px;
+    margin:auto;
+}
+
+.header_article{
+    width: 450px;
+    left: 20px;
+    
+}
+.header_content{
+    right: 20px;
+}
+
+.header_article p{
+    margin-top:20px;
+}
+
+.article_wrapper{
+    width: 1005px;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+.mobile-navigation-wrapper{
+    display:none;
+}
