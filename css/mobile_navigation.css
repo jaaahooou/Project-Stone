@@ -4,14 +4,12 @@
     flex-direction: column;
     left: 0;
     width: 100vw;
-    
-   
-    z-index:2;
+    z-index:5;
+      
 }
 
 .contact{
     display:flex;
-
     justify-content: space-around;
     background-color: #fff;
     z-index: 2;
@@ -49,7 +47,7 @@
 
 .fa-bars{
     position: absolute;
-    /* bottom: 0px; */
+  
 }  
 
 .hamburger-menu-is-opened{
