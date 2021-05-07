@@ -46,7 +46,8 @@ const facebookButtonMobile = document.querySelector('.facebook-button-mobile');
 const closeMobileMenu = ()=>{
 
     mobileNavigation.classList.add('mobile-menu-is-inactive');
-    mobileNavigationContentWrapper.classList.remove('rendering-buttons')
+    mobileNavigationContentWrapper.classList.remove('rendering-buttons');
+    mobileNavigationContentWrapper.classList.add('hidden');
     instagramButtonMobile.classList.add('hidden');
             facebookButtonMobile.classList.add('hidden');
     setTimeout(()=>{
@@ -67,7 +68,7 @@ hamburgerButton.addEventListener('click',()=>{
         mobileNavigation.classList.add('mobile-menu-is-active');
         setTimeout(()=>{
             mobileNavigation.classList.remove('mobile-menu-is-inactive');
-         
+         mobileNavigationContentWrapper.classList.remove('hidden');
             mobileNavigationContentWrapper.classList.add('rendering-buttons');
             instagramButtonMobile.classList.remove('hidden');
             facebookButtonMobile.classList.remove('hidden');

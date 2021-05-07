@@ -1,0 +1,41 @@
+.navigation-arrows{
+    position:fixed;
+    height: 100px;
+    width: 50px;
+  
+    right: 0;
+    top: 50%;
+    z-index: 3;
+font-size: 3rem;
+
+}
+
+.navigation-arrows:hover{
+    cursor: pointer;
+}
+
+
+.back-to-top{
+    position:fixed;
+    height: 60px;
+    width: 60px;
+  
+    right: 100px;
+    bottom: 100px;
+    border-radius: 50%;
+    z-index: 3;
+  
+}
+
+.fa-arrow-circle-up{
+    font-size: 3rem;
+    color:rgb(11, 186, 192);
+}
+.fa-arrow-circle-up:hover{
+    cursor:pointer
+}
+
+
+.hidden{
+    display:none
+}

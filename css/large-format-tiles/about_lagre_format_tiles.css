@@ -80,16 +80,3 @@ z-index:4;
 
 /* ======= Header Content ======= */
 
-.header_content_navigation{
-    z-index:3
-}
-
-.three{
-    cursor: pointer;
-}
-
-.one{
-    width: 100%;
-    z-index:555;
-}
-

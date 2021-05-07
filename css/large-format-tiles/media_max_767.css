@@ -48,10 +48,18 @@
     margin: 10px 10px 10px 10px;
 }
 .header_content_navigation{
-   
-    line-height: 20px;
+   position:absolute;
+   left: 0;
+   top: 0;
+   width: 90%;
+   height: 90%;
+    line-height: 16px;
     height: 100%;
-    margin:0;
+    margin:auto;
+}
+
+.header_content_navigation div{
+    max-height: 60px;
 }
 
 .post_holder{
@@ -95,3 +103,8 @@
     display: none;
 }
 
+.back-to-top{
+    right: 10px;
+    bottom: 10px;
+  
+}
