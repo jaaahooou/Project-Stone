@@ -29,7 +29,7 @@
     height: 400px;
     width: 100%;
     background-color: white;
-    background-image: url('../img/about_large_format_tiles/neolith-spieki-kwarcowe-calacatta-plyta-kamienna.jpg');
+    background-image: url('/../../img/about_large_format_tiles/neolith-spieki-kwarcowe-calacatta-plyta-kamienna.jpg');
     background-size: cover;
 
 }
