@@ -73,20 +73,20 @@ article h1{
 } 
 
 .article-image-one{
-    background-image: url('/img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');
+    background-image: url('./img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');
 }
 
 .article-image-two{
-    background-image: url('/img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');
+    background-image: url('./img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');
 }
 
 .article-image-three{
-    background-image: url('/img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');
+    background-image: url('./img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');
 }
 .article-image-four{
-    background-image: url('/img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');
+    background-image: url('./img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');
 }
 
 .article-image-five{
-    background-image: url('/img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');  
+    background-image: url('./img/about_large_format_tiles/Ragno_Maiora_Marble_Effect_017.jpg.1920x0_q75_crop.jpg');  
 }
