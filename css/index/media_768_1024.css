@@ -115,44 +115,44 @@ h1.item_description {
     width: var(--item-width);
     height: var(--item-height);
     margin: 5px;
-    background-image: url('./img/main-site/amb-loire-arena_web.jpg');
+    background-image: url('../../img/main-site/amb-loire-arena_web.jpg');
     
 }
 
 
 
 .item_3_background {
-    background-image: url('./img/main-site/ambiente-artic-antracita-80x160_web.jpg');
+    background-image: url('../../img/main-site/ambiente-artic-antracita-80x160_web.jpg');
     
 }
 
 
 .item_4_background {
-    background-image: url('./img/main-site/detalle-gala-balnco-31-5x100-penelope-blanco-31-5x100_web.jpg');
+    background-image: url('../../img/main-site/detalle-gala-balnco-31-5x100-penelope-blanco-31-5x100_web.jpg');
     
 }
 
 
 .item_5_background {
-    background-image: url('./img/main-site/Ragno_Look_011.jpg.1920x0_q75_crop.jpg');
+    background-image: url('../../img/main-site/Ragno_Look_011.jpg.1920x0_q75_crop.jpg');
 }
 
 
 
 .item_6_background {
-    background-image: url('/img/main-site/amb-grespania-patagonia-casta-o_web.jpg');
+    background-image: url('../../img/main-site/amb-grespania-patagonia-casta-o_web.jpg');
 }
 
 
 
 .item_7_background {
-    background-image: url('./img/main-site/c.abadia-fuego_web.jpg');
+    background-image: url('../../img/main-site/c.abadia-fuego_web.jpg');
 }
 
 
 
 .item_8_background {
-    background-image: url('./img/main-site/volcano-web.jpg');
+    background-image: url('../../img/main-site/volcano-web.jpg');
 }
 
 .footer {
