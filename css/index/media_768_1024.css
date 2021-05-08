@@ -96,7 +96,7 @@ h1.item_description {
        width: var(--item-width);
     height: var(--item-height);
     margin: 5px;
-    background-image: url('./img/main-site/ambiente-cuarzo-reno-120x120-ok_web.jpg');
+    background-image: url('../../img/main-site/ambiente-cuarzo-reno-120x120-ok_web.jpg');
 }
 
 
