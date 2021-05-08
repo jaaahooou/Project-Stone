@@ -80,4 +80,10 @@ hamburgerButton.addEventListener('click',()=>{
    
 })
 
-articleWrapper.addEventListener('click',closeMobileMenu)
+articleWrapper.addEventListener('click',()=>{
+if (mobileNavigation.classList.contains('mobile-menu-is-active')){
+    closeMobileMenu();
+}
+    
+}
+)
