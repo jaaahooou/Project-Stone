@@ -50,12 +50,7 @@
     border: 1px solid black;
 }
 
-.white {
-    height: 100%;
-    width: 100%;
-    background-color: #fff;
-    opacity: 0.6;
-}
+
 
 .button {
     position: absolute;
@@ -98,18 +93,20 @@ h1.item_description {
 
 
 .item_1_background {
-    width: var(--item-width);
+       width: var(--item-width);
     height: var(--item-height);
     margin: 5px;
     background-image: url('/img/main-site/ambiente-cuarzo-reno-120x120-ok_web.jpg');
 }
 
+
 .item_1_descritpion {
-    position: absolute;
-    width: var(--item-width);
-    bottom: 0;
+    position: relative;
+    width: 100%;
+    bottom:0;
     height: 40px;
     background-color: #fff;
+    margin: auto;
 }
 
 
@@ -186,6 +183,7 @@ ul.product_list{
 }
 
 .product_list li{
+    margin: 5px auto 5px auto;
     width: 100vw;
     height: 500px;
     width: calc(100vw - 17px);
