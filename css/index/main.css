@@ -105,7 +105,7 @@ li.item_1 {
     width: var(--item-width);
     height: var(--item-height);
     margin: 5px;
-    background-image: url('/img/main-site/ambiente-cuarzo-reno-120x120-ok_web.jpg');
+    background-image: url('../../img/main-site/ambiente-cuarzo-reno-120x120-ok_web.jpg');
 }
 
 .item_1_descritpion {
@@ -126,7 +126,7 @@ li.item_2 {
     width: var(--item-width);
     height: var(--item-height);
     margin: 5px;
-    background-image: url('/img/main-site/amb-loire-arena_web.jpg');
+    background-image: url('../../img/main-site/amb-loire-arena_web.jpg');
     
 }
 
@@ -137,7 +137,7 @@ li.item_3 {
 }
 
 .item_3_background {
-    background-image: url('/img/main-site/ambiente-artic-antracita-80x160_web.jpg');
+    background-image: url('../../img/main-site/ambiente-artic-antracita-80x160_web.jpg');
     
 }
 
@@ -149,7 +149,7 @@ li.item_4 {
 }
 
 .item_4_background {
-    background-image: url('/img/main-site/detalle-gala-balnco-31-5x100-penelope-blanco-31-5x100_web.jpg');
+    background-image: url('../../img/main-site/detalle-gala-balnco-31-5x100-penelope-blanco-31-5x100_web.jpg');
     
 }
 
@@ -161,7 +161,7 @@ li.item_5 {
 }
 
 .item_5_background {
-    background-image: url('/img/main-site/Ragno_Look_011.jpg.1920x0_q75_crop.jpg');
+    background-image: url('../../img/main-site/Ragno_Look_011.jpg.1920x0_q75_crop.jpg');
 }
 
 li.item_6 {
@@ -172,7 +172,7 @@ li.item_6 {
 }
 
 .item_6_background {
-    background-image: url('/img/main-site/amb-grespania-patagonia-casta-o_web.jpg');
+    background-image: url('../../img/main-site/amb-grespania-patagonia-casta-o_web.jpg');
 }
 
 li.item_7 {
@@ -183,7 +183,7 @@ li.item_7 {
 }
 
 .item_7_background {
-    background-image: url('/img/main-site/c.abadia-fuego_web.jpg');
+    background-image: url('../../img/main-site/c.abadia-fuego_web.jpg');
 }
 
 li.item_8 {
@@ -194,7 +194,7 @@ li.item_8 {
 }
 
 .item_8_background {
-    background-image: url('/img/main-site/volcano-web.jpg');
+    background-image: url('../../img/main-site/volcano-web.jpg');
 }
 
 .footer {
