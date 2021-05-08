@@ -103,7 +103,7 @@ h1.item_description {
 .item_1_descritpion {
     position: relative;
     width: 100%;
-    bottom:0;
+    top: 450px;
     height: 40px;
     background-color: #fff;
     margin: auto;
@@ -157,11 +157,12 @@ h1.item_description {
 
 .footer {
     
-    
+    position:absolute;
     height: 150px;
     width: calc(100vw - 17px);
     margin: auto;
     background-color: grey;
+    top:4080px;
 }
 
 
