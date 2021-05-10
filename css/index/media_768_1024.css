@@ -159,7 +159,7 @@ h1.item_description {
     
     position:absolute;
     height: 150px;
-    width: calc(100vw - 17px);
+    width: 100vw;
     padding: auto;
     background-color: grey;
     top:4080px;
