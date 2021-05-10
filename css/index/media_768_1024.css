@@ -160,7 +160,7 @@ h1.item_description {
     position:absolute;
     height: 150px;
     width: calc(100vw - 17px);
-    margin: auto;
+    padding: auto;
     background-color: grey;
     top:4080px;
 }
@@ -168,18 +168,16 @@ h1.item_description {
 
 
 
-
-
-
-
-
-/* ====================== */
+.social_media_buttons{
+    display:none;
+}
 
 
 ul.product_list{
     display:flex;
     flex-direction: column;
     width: calc(100vw - 17px);
+    margin:auto;
 
 }
 
