@@ -120,16 +120,14 @@ h1{
 }
 
 
-.article-holder-right{
- 
- 
- 
-}
 
-.article-holder-left{
-   
-   }
 
 .last-article{
        margin-bottom:15px;
    }
+
+   .back-to-top{
+    right: 10px;
+    bottom: 10px;
+  
+}

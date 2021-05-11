@@ -1,18 +1,4 @@
-.navigation-arrows{
-    position:fixed;
-    height: 100px;
-    width: 50px;
-  
-    right: 0;
-    top: 50%;
-    z-index: 3;
-font-size: 3rem;
 
-}
-
-.navigation-arrows:hover{
-    cursor: pointer;
-}
 
 
 .back-to-top{
