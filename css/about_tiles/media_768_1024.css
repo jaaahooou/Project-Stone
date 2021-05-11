@@ -1,3 +1,82 @@
-.mobile-navigation-wrapper{
-    display:none;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+p{display: block;}
+
+ .page_wrapper{
+    width: 100vw;
+}
+
+
+
+.page_content_wrapper{
+    position: relative;
+    display: block;
+    top: 120px;
+ 
+    
+    background-color: white;
+    margin: 0px 15px 0px 15px;
+    
+    
+}
+
+.main-header{
+    line-height: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+.post-holder{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.img-1,
+.img-2,
+.img-3{
+    width:100%;
+    height: 500px ;
+    background-size:contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-1{
+    background-image: url('/img/about_tiles/img/Fragment-Bramy-Isztar-FOTER-700x440.jpg');
+   
+  
+}
+
+.img-2{
+    background-image: url('/img/about_tiles/img/The-History-of-Ceramic-Tiles-img02.jpg');
+  
+}
+
+.img-3{
+    background-image: url('/img/about_tiles/img/POST-The-History-of-Ceramic-Tiles-oltl7ntvat5y9nhdnvblvbrscmsja6qb2bhr5yvq14.jpg');
+   
+}
+
+
+
+
+.last-article{
+       margin-bottom:15px;
+   }
+
+   .back-to-top{
+    right: 10px;
+    bottom: 10px;
+  
 }

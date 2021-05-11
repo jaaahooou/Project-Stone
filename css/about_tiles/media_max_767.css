@@ -32,60 +32,7 @@ p{display: block;}
 }
 
 
-/*
-.historia-plytek{
-    position:absolute;
-    display:flex;
-    flex-direction: column;
-    top:30px;
-    width: 100vw;
 
-}
-.holder{
-    display:flex;
-    flex-direction: column;
-    position:relative; 
-    margin-top: 10px; 
-    text-align: justify;
-   
-}
-.main-header{
-    
-    position:relative;  
-    display:block;
-    
-}
-h1{
-    color:rgb(0, 255, 200);
-    text-transform: uppercase;
-   font-weight: lighter;
-}
-
-.post-holder{
-    display: flex;
-    margin:20px 0 20px 0;
-}
-
-
-
-.image-left{
-    height: 250px;
-    
-    
-    background-size: cover;
-   
-}
-
-.image-right{
-    height: 250px;
-    
-    
-    background-size: cover;
-  
-
-} */
-
- 
 
 .post-holder{
     font-size: 1.3rem;
@@ -101,6 +48,8 @@ h1{
     background-size:contain; 
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .img-1{
