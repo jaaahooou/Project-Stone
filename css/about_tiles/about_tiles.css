@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -6,6 +6,8 @@
     color:grey;
 }
 p{display: block;}
+
+
 .page_content_wrapper{
     position: relative;
     display: block;
@@ -79,6 +81,8 @@ h1{
     background-image: url('/img/about_tiles/img/Delft-Przypowieść-o-Samarytaninie-FOTER-700x714.jpg');
     height:400px;
 }
+
+
 .article-holder-right{
  width: 65%;
  text-align: justify;
@@ -94,7 +98,7 @@ h1{
 .last-article{
        margin-bottom:15px;
    }
-
+ */
 
 
 

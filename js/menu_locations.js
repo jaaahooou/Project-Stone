@@ -7,14 +7,6 @@ const aboutInspirations = document.querySelector('.inspirations_button');
 const introWrapper = document.querySelector('.intro_wrapper');
 
 
-
-
-
-
-
-
-
-
 logoButton.addEventListener('click', () => {
     location.href = './index.html';
 
