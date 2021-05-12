@@ -43,7 +43,7 @@ const logoButtonMobile = document.querySelector('.logo_mobile');
 const aboutStonesButtonMobile = document.querySelector('.about_stones_button_mobile');
 const aboutLargeFormatTilesButtonMobile = document.querySelector('.about_lagre_format_tiles_button_mobile');
 const aboutInspirationsMobile = document.querySelector('.inspirations_button_mobile');
-const introWrapperMobile = document.querySelector('.intro_wrapper');
+const lastItemOfMobileMenu = document.querySelector('.last-item-of-mobile-menu');
 
 
 
@@ -68,9 +68,16 @@ aboutStonesButtonMobile.addEventListener('click', () => {
 })
 
 aboutLargeFormatTilesButtonMobile.addEventListener('click', ()=>{
-    console.log('działam');
+    
     location.href = './about_large_format_tiles.html'
 })
+
+lastItemOfMobileMenu.addEventListener('click', ()=>{
+    
+    location.href = './inspirations.html'
+})
+
+
 
 
 const mobileNavigation = document.querySelector('.mobile-navigation')

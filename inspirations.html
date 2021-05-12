@@ -5,8 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="./css/inspirations.css">
+    <!-- <link rel="stylesheet" href="./css/inspirations/inspirations.css"> -->
     <link rel="stylesheet" href="./css/social_media.css">
+
+    <link rel="stylesheet" href="./css/social_media.css">
+    <link rel="stylesheet" href="./css/navigation_arrows.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./css/mobile_navigation.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./css/inspirations/media_max_767.css">
+    <!-- <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="./css/about_tiles/media_768_1024.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="./css/about_tiles/media_1400.css"> -->
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,6 +24,37 @@
 
 <body>
     <div class="page_wrapper">
+
+        <nav class="mobile-navigation-wrapper">
+            <div class="contact">
+                <div class="mobile"><i class="fas fa-mobile-alt"></i> +48534989800</div>
+                <div class="mail"><i class="far fa-envelope-open"></i>info@projectstone.pl</div>
+            </div>
+            <div class="mobile-navigation">
+                <div class="hamburger"> <i class="fas fa-bars"></i>
+                    <div class="mobile-navigation-content-wrapper hidden">
+                        <div class="mobile-menu-button ">sklep</div>
+                        <div class="mobile-menu-button about_us_button_mobile">o nas</div>
+                        <div class="mobile-menu-button about_tiles_button_mobile">o płytkach</div>
+                        <div class="mobile-menu-button logo_mobile">s</div>
+                        <div class="mobile-menu-button about_stones_button_mobile">o kamieniu</div>
+                        <div class="mobile-menu-button about_lagre_format_tiles_button_mobile">o spiekach</div>
+                        <div class="mobile-menu-button  last-item-of-mobile-menu">inspiracje</div>
+                    </div>
+    
+                    <div class="social-media-buttons-for-mobile-navigation">
+                        <div class="facebook-button-mobile hidden"><span class="fab fa-facebook-square"></span></div>
+                        <div class="instagram-button-mobile hidden"><span class="fab fa-instagram"></span></div>
+                    </div>
+                
+                
+                </div>
+            
+            
+            </div>
+    
+        </nav>
+
 
         <nav class="menu__wrapper">
             <div class="left-menu">
@@ -46,10 +85,15 @@
         <div class="inspirations_page_content_wrapper">
 
             <div class="inspirations_sidebar">
-                <ul class="styles_wrapper" id='styles_list'>
+                <div class="styles"> styles
+                    <ul class="styles_wrapper mobile_hidden" id='styles_list'>
                 </ul>
-                <div class="colour_wrapper" id='colour_list'>
+            </div>
+                <div class="colours">kolory
+                     <div class="colour_wrapper mobile_hidden" id='colour_list'>
                 </div>
+            </div>
+               
 
 
             </div>
