@@ -125,6 +125,12 @@ const goToTheTop = ()=>{
 
     for (let i = 0; i < choosenColour.length; i++) {
         choosenColour[i].addEventListener('click', () => {
+            goToTheTop();
+            removeOldElements();
+
+            // -------- RENDERING NEW ELEMENTS  --------
+            
+            let choosenColourInnerHtml = choosenColour[i].innerHTML;
             console.log(choosenColour[i]);
         })
 

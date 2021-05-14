@@ -78,6 +78,24 @@ border-radius: 4px;
 }
 
 
+.inspirations_content{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:150px;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inspirations_content-tile{
+    margin:5px;
+    width: 40vw;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
 
@@ -94,17 +112,16 @@ border-radius: 4px;
 }
 
 @keyframes open-styles {
-   
        
         100%{
-            left: 0;
+            left: 10px;
         
     }
     }
 
 @keyframes close-styles {
     0%{
-        left: 0;
+        left: 10px;
     }
        
         100%{
@@ -114,14 +131,14 @@ border-radius: 4px;
 
 @keyframes open-colours{
     100%{
-        right: 0;
+        right: 10px;
     }
 }
 
 @keyframes close-colours{
 
     0%{
-        right: 0;
+        right: 10px;
     }
     100%{
         right: -120px;
