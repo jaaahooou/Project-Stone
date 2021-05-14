@@ -50,6 +50,7 @@ border-radius: 4px;
    border-radius: 4px;
    padding-left: 10px;
    padding-right: 10px;
+   z-index:3;
   }
 
 .styles_wrapper{
