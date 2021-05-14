@@ -104,7 +104,7 @@ const goToTheTop = ()=>{
                         inspirationsContentTile.classList.add('inspirations_content-tile');
                         let tileBackground = tiles[name].url;
                         
-                        inspirationsContentTile.innerHTML =`${tiles[name].nameOfTile}`
+                        inspirationsContentTile.innerHTML =`<div class="tile_description">${tiles[name].nameOfTile}</div>`
                         inspirationsContentTile.style.backgroundImage = `url(${tiles[name].url})`;
                         inspirationsContent.appendChild(inspirationsContentTile);
 

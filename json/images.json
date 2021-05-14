@@ -6,43 +6,43 @@
     "Annapurna Gris 120x60 ": {
       "colourss" : ["szary"],
       "styles" : ["modern", "loft"],
-      "nameOfTile": "Annapurna Gris 120x60 ",
+      "nameOfTile": "Annapurna Gris",
       "url": "./img/inspirations/amb-grespania-annapurna-gris_2_web.jpg"
     },
 
     "Artic Antracita 120x60": {
       "colourss" : ["szary","czarny"],
       "styles" : ["modern", "loft"],
-      "nameOfTile": "Artic Antracita 120x60",
+      "nameOfTile": "Artic Antracita",
       "url": "./img/inspirations/ambiente-artic-antracita-80x160_web.jpg"
     },
 
     "Annapurna Negro 120x60": {
       "colourss" : ["szary","czarny"],
       "styles" : ["modern", "loft"],
-      "nameOfTile": "Annapurna 120x60",
+      "nameOfTile": "Annapurna",
       "url": "./img/inspirations/amb-grespania-annapurna-negro_2_web.jpg"
     },
      
       "Alpes Negro 120x60": {
       "colourss" : ["czarny"],
       "styles" : ["modern", "loft"],
-      "nameOfTile": "Alpes Negro 120x60",
-      "url": "/img/inspirations/ambiente-salon-alpes_web.jpg"
+      "nameOfTile": "Alpes Negro",
+      "url": "./img/inspirations/ambiente-salon-alpes_web.jpg"
         
     },
 
     "Mitica Blanco 120x120": {
       "colourss" : ["szary","biały"],
       "styles" : ["modern", "loft"],
-      "nameOfTile": "Mitica Blanco 120x120",
+      "nameOfTile": "Mitica Blanco",
       "url": "./img/inspirations/amb-mitica-120x120-blanco_web.jpg"
     },
 
     "Mitica Gris 120x120": {
       "colourss" : ["szary"],
       "styles" : ["modern", "loft"],
-      "nameOfTile": "Mitica Gris 120x120",
+      "nameOfTile": "Mitica Gris",
       "url": "./img/inspirations/amb-mitica-120x120-gris_web.jpg"
     },
 
@@ -50,7 +50,7 @@
     "Volga": {
       "colourss" : ["szary"],
       "styles" : ["modern", "loft"],
-      "nameOfTile": "Volga Gris Naturale 120x20",
+      "nameOfTile": "Volga Gris Naturale",
       "url": "./img/inspirations/amb-ban-o-grespania-volga-gris-natural-60x120_web.jpg"
 
     },
@@ -65,21 +65,21 @@
     "Calacata Gold 120x120": {
       "colourss" : ["biały","złoty","brązowy"],
       "styles" : ["klasyczny","retro","art deco","glamour"],
-      "nameOfTile": "Calacata Gold 120x120",
+      "nameOfTile": "Calacata Gold",
       "url": "./img/inspirations/amb-calacata-gold-120x120-ok_web.jpg"
     
     },
     "Corinto 119x119": {
       "colourss" : ["biały","złoty","brązowy"],
       "styles" : ["klasyczny","modern"],
-      "nameOfTile": "Corinto 119x119",
+      "nameOfTile": "Corinto",
       "url": "./img/inspirations/amb-corinto-119x119-pulido_web.jpg"
     
     },
     "Cuarzo Reno 119x119": {
       "colourss" : ["biały","złoty","brązowy"],
       "styles" : ["klasyczny","modern"],
-      "nameOfTile": "Cuarzo Reno 119x119",
+      "nameOfTile": "Cuarzo Reno",
       "url": "./img/inspirations/ambiente-cuarzo-reno-120x120-ok_web.jpg"
     
     },
@@ -107,7 +107,7 @@
     "Sentelmo": {
       "colourss" : ["biały","szary","czarny"],
       "styles" : ["modern","retro"],
-      "nameOfTile": "Marmorea Marquina",
+      "nameOfTile": "Sentelmo blanco",
       "url": "./img/inspirations/amb-santelmo-blanco-negro-pav-bolshoi-01-negro_web.jpg"
         
     },
