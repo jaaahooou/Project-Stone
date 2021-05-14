@@ -86,7 +86,7 @@ const goToTheTop = ()=>{
             // -------- RENDERING NEW ELEMENTS  --------
             let choosenStyleInnerHtml = choosenStyle[i].innerHTML;
 
-            fetch('../json/images.json')
+            fetch('json/images.json')
                 .then(resp => {
                     return resp.json()
                 }).then(imagesInfo => {
