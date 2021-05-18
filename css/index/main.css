@@ -27,7 +27,7 @@
     position: relative;
     top: 80px;
     color: black;
-    height: 1800px;
+    /* height: 1800px; */
     margin:auto;
 }
 
@@ -197,24 +197,7 @@ li.item_8 {
     background-image: url('../../img/main-site/volcano-web.jpg');
 }
 
-.footer {
-    position: relative;
-    top: 1620px;
-    height: 150px;
-    width: 1600px;
-    margin: auto;
-    background-color: grey;
+.footer-mobile{
+    display:none;
 }
 
-/* @media (min-width: 1600px) {
-
-    li.item_8, 
-    li.item_7,
-    li.item_2
-     {
-        
-        right: 0px;
-     
-    }
-    
-} */
