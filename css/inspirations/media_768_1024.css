@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+   
+}
+
+
+
+.inspirations_page_content_wrapper {
+    position: relative;
+    display: block;
+   top:20px;
+    
+    height: 100vh;
+    background-color: white;
+    width: 80vw;
+    border-left: 1px solid grey;
+   
+}
+
+.inspirations_sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: calc(100vh - 80px);
+    width: 150px;
+    background-color: white;
+    border-right: 1px solid grey;
+    
+}
+
+
+.styles{
+    margin-top:20px;
+}
+.sidebar-header{
+   
+    text-transform: uppercase;
+    background-color: lightgrey;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.bottom_sidebar-header{
+    margin-top: 20px;
+}
+
+.styles_wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colour_wrapper {
+    margin-top: 20px;
+}
+
+.styles_element,
+.colour_element {
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+    padding-left: 10px;
+    background-color: white;
+    color: grey;
+    margin: 2px 0;
+    text-transform: uppercase;
+}
+
+.styles_element:hover,
+.colour_element:hover {
+
+    background-color: rgba(25, 0, 255, 0.6);
+    border-radius: 15px;
+
+}
+
+.styles_element:hover,
+.colour_element:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.active_sidebar_element {
+    color: black;
+    background-color: rgba(25, 0, 255, 0.6);
+    border-radius: 15px;
+}
+
+
+.inspirations_content{
+    display:flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    width: calc(100vw - 187px);
+    min-height: calc(100vh - 80px - 150px);
+    top: 0px;
+    left: 150px;
+    margin: 20px auto auto 10px;
+    
+    
+}
+
+.inspirations_content-tile{
+    position:relative;
+    background-color: grey;
+    margin: 2px;
+    height: 400px;
+    background-size:cover;
+    flex: 33.3%;
+    margin:10px;
+    
+}
+
+.inspirations_content-tile::after{
+   content:"";
+   position:absolute;
+   border:1px solid grey;
+   top:-6px;
+   left:-6px;
+   bottom:-6px;
+   right:-6px;
+
+}
+
+.tile_description{
+    
+    background-color: white;
+    opacity:0.7;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* ---------  FOOTER  ---------  */
+
+.footer {
+    position:absolute;
+    background-color: darkgray;
+    height: 150px;
+    width:calc(100% - 150px);
+    width:1450px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    line-height: 150px;
+    bottom:-150px;
+    border-right: 1px solid grey;
+}

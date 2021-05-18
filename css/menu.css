@@ -1,6 +1,6 @@
 .menu__wrapper {
     position: fixed;
-    width: calc(100vw - 17px);
+        width:100vw;
     height: 80px;
     top: 0;
     display: flex;

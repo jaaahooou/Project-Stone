@@ -76,12 +76,17 @@ const goToTheTop = ()=>{
 
  const renderingNewStyleElements =()=>{
     const choosenStyle = document.querySelectorAll('#styles_list li');
+    
     for (let i = 0; i < choosenStyle.length; i++) {
 
+
+       
         
         choosenStyle[i].addEventListener('click', () => {
             goToTheTop();
             removeOldElements();
+
+            choosenStyle[i].classList.add('active_sidebar_element')
 
             // -------- RENDERING NEW ELEMENTS  --------
             let choosenStyleInnerHtml = choosenStyle[i].innerHTML;
@@ -107,6 +112,8 @@ const goToTheTop = ()=>{
                         inspirationsContentTile.innerHTML =`<div class="tile_description">${tiles[name].nameOfTile}</div>`
                         inspirationsContentTile.style.backgroundImage = `url(${tiles[name].url})`;
                         inspirationsContent.appendChild(inspirationsContentTile);
+                        
+                       
 
                     
                 }
@@ -119,6 +126,9 @@ const goToTheTop = ()=>{
     }
  }
 
+
+
+// -------- RENDERING CHOOSEN COLOUR ELEMENTS  --------
 
  const renderingNewColoursElements = () =>{
     const choosenColour = document.querySelectorAll('#colour_list li')
@@ -140,13 +150,35 @@ const goToTheTop = ()=>{
  const removeOldElements = () =>{
     if (document.querySelector('.inspirations_content-tile')){
                 
-                
+        const choosenStyle = document.querySelectorAll('#styles_list li');   
         const inspirationsContentTile = document.querySelectorAll('.inspirations_content-tile');
         
+        for (const activeEl of choosenStyle ) {
+
+            activeEl.classList.remove('active_sidebar_element')
+        }
+
         for(const el of inspirationsContentTile){
+           
             el.remove()
         }
                 
         
     }
  }
+
+
+ // -------- CHOOSING TILE  --------
+ const choosingTile = () =>{
+    const choosentTiles = querySelectorAll('.inspirations_content-tile')
+    inspirationsContentTile.addEventListener('click',()=>{
+        
+        console.log(choosentTiles);
+    })
+ }
+
+ // -------- CHOOSING TILE  --------
+
+
+
+ 
