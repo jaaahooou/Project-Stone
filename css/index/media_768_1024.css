@@ -197,7 +197,7 @@ ul.product_list{
 }
 
 
-.footer-mobile {
+.footer{
     
     top:0;
     position: relative;
@@ -205,22 +205,21 @@ ul.product_list{
     margin: auto;
     width: calc(100vw - 17px);
     margin-bottom: 10px;
+    background-color: #fff;
    
 }
-.footer-mobile__wrapper{
+.footer-wrapper{
     margin-top: 10px;
     display:flex;
     flex-direction: column;
-
-    /* height: 100%; */
+  
 }
 
-.footer-mobile-top,
-.footer-mobile-bottom
+.footer-top
+
 {
     display:flex;
     flex-direction: column;
-   
     width: 100%; 
     margin-top: 56px;
    
@@ -278,5 +277,5 @@ ul.product_list{
 .fa-facebook-square-footer,
 .fa-instagram-footer{
     color:black;
-    z-index:6;
+    
 }

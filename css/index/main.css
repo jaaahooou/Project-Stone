@@ -25,6 +25,8 @@
 
 .main_page_content_wrapper {
     position: relative;
+    display:flex;
+    flex-direction: column;
     top: 80px;
     color: black;
     /* height: 1800px; */
@@ -197,7 +199,10 @@ li.item_8 {
     background-image: url('../../img/main-site/volcano-web.jpg');
 }
 
-.footer-mobile{
-    display:none;
+.footer{
+    position: relative;
+    top:1300px;;
 }
+
+
 
