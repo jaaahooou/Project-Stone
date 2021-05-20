@@ -25,7 +25,7 @@
     width: 100%;
     margin:auto;
     text-align: center;
-    margin-top:150px;
+    margin-top:250px;
 }
 
 .image-mobile{
@@ -54,4 +54,24 @@
 
 .post{
     margin-top: 20px;
+}
+
+
+.what-we-do{
+    position: relative;
+}
+
+.down-arrow-mobile{
+    position: absolute;
+   top:0;
+    height: 100%;
+    width: 100vw;
+    background-color: white;
+    opacity:1;
+}
+
+
+.article-wrapper{
+    top:0;
+    margin-top:100px;
 }

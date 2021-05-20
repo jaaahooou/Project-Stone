@@ -1,9 +1,10 @@
-console.log('działam');
+const downArrowMobile = document.querySelector('.down-arrow-mobile')
 
 
 window.addEventListener('scroll', ()=>{
 
+    let opacity = window.pageYOffset *3 /1000
     
-    console.log('działam');
-    console.log(window.pageYOffset);
+    downArrowMobile.style.opacity = 1 - `${opacity}`;
+    console.log(opacity);
 })
