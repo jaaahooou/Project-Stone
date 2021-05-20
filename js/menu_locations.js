@@ -127,6 +127,8 @@ hamburgerButton.addEventListener('click',()=>{
 })
 
 
+// 
+
 if(articleWrapper){
     articleWrapper.addEventListener('click',()=>{
         if (mobileNavigation.classList.contains('mobile-menu-is-active')){
@@ -147,3 +149,6 @@ if(mainPageContentWrapper){
         }
         )
 }
+
+
+

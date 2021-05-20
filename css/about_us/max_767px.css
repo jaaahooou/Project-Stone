@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+   
+}
+
+.social_media_buttons{
+    display:none;
+}
+
+.page_wrapper{
+    height: 1000vh;
+}
+
+.main-content{
+    display:flex;
+    flex-direction: column;
+}
+
+.introduce{
+    
+    top:150px;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    margin-top:150px;
+}
+
+.image-mobile{
+    background-image: url('/img/backgrounds/bgimg_3.jpg');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-us-post-holder-mobile{
+    width: 90%;
+    margin:auto
+}
+
+.header-mobile{
+    width: 100%;
+    margin:100px auto auto auto;
+    text-align: center;
+
+}
+
+.header-mobile-first{
+    margin: auto auto auto auto;  
+}
+
+
+.post{
+    margin-top: 20px;
+}
