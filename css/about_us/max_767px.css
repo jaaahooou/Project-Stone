@@ -29,7 +29,7 @@
 }
 
 .image-mobile{
-    background-image: url('/img/backgrounds/bgimg_3.jpg');
+    background-image: url('../../img/backgrounds/bgimg_3.jpg');
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
