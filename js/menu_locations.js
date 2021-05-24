@@ -157,7 +157,7 @@ if(mainPageContentWrapper){
 
 function dialNumber (){
     mobilePhoneNumber.addEventListener('click',()=>{
-        location.href = 'tel:+4848534989800';
+        location.href = 'tel:+48534989800';
     })
 }
 
