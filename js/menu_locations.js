@@ -7,6 +7,7 @@ const aboutInspirations = document.querySelector('.inspirations_button');
 const introWrapper = document.querySelector('.intro_wrapper');
 
 
+
 logoButton.addEventListener('click', () => {
     location.href = './index.html';
 
@@ -44,7 +45,7 @@ const aboutStonesButtonMobile = document.querySelector('.about_stones_button_mob
 const aboutLargeFormatTilesButtonMobile = document.querySelector('.about_lagre_format_tiles_button_mobile');
 const aboutInspirationsMobile = document.querySelector('.inspirations_button_mobile');
 const lastItemOfMobileMenu = document.querySelector('.last-item-of-mobile-menu');
-
+const mobilePhoneNumber = document.querySelector('.mobile-number')
 
 
 logoButtonMobile.addEventListener('click', () => {
@@ -149,6 +150,19 @@ if(mainPageContentWrapper){
         }
         )
 }
+
+
+
+// ========== dial phone number ==========
+
+function dialNumber (){
+    mobilePhoneNumber.addEventListener('click',()=>{
+        location.href = 'tel:+4848534989800';
+    })
+}
+
+
+dialNumber();
 
 
 
