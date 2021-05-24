@@ -3,8 +3,11 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-   
+    overflow-x: hidden;
 }
+
+
+
 
 .social_media_buttons{
     display:none;
@@ -19,20 +22,38 @@
     flex-direction: column;
 }
 
+
+.logo-colour{
+    position: relative;
+    left: -100vw;
+    height: 200px;
+    width: 300px;
+    
+    background-image: url('../../img/logo-niebieskie.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: 90px auto 0 auto;
+
+}
+
 .introduce{
     
-    top:100px;
+    position: relative;
+    left: 100vw;
     width: 100%;
     margin:auto;
     text-align: center;
-    margin-top:250px;
+    margin-top:50px;
 }
 
 .image-mobile{
     background-image: url('../../img/backgrounds/bgimg_3.jpg');
     height: 200px;
+    width: 200px;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 50%;
+    margin:auto;
 }
 
 .about-us-post-holder-mobile{
@@ -42,7 +63,7 @@
 
 .header-mobile{
     width: 100%;
-    margin:100px auto auto auto;
+    margin:50px auto auto auto;
     text-align: center;
 
 }
@@ -57,21 +78,77 @@
 }
 
 
-.what-we-do{
+
+.what-we-do-third {
     position: relative;
+    opacity:0;
 }
 
-.down-arrow-mobile{
-    position: absolute;
-   top:0;
-    height: 100%;
-    width: 100vw;
-    background-color: white;
-    opacity:1;
+.what-we-do{
+    position: relative;
+    left:-100vw;
 }
+
+
+.what-we-do-second{
+    position:relative;
+    left: 100vw;
+}
+
+.slide-element-from-right{
+    animation: slide-element-from-right 0.5s forwards;
+}
+
+.slide-element-from-left{
+    animation: slide-element-from-left 0.5s forwards;
+}
+
+
+
 
 
 .article-wrapper{
     top:0;
     margin-top:100px;
+}
+
+.show-element{
+    animation: show-element 0.5s forwards ;
+}
+
+
+
+@keyframes show-element {
+
+    0%{
+        opacity : 0;
+    }
+    
+    100%{
+
+        opacity:1;
+    }
+}
+
+
+@keyframes slide-element-from-right {
+    0%{
+        left: 100vw;
+    }
+
+    100%{
+        left: 0;
+    }
+}
+
+
+@keyframes slide-element-from-left {
+0%{
+    left: -100vw
+
+}
+100%{
+    left: 0;
+}
+    
 }
