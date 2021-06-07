@@ -70,6 +70,10 @@
 }
 
 
+.white {
+    display : none;
+}
+
 
 .button {
     position: absolute;
