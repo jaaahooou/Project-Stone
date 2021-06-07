@@ -36,6 +36,25 @@
     margin:auto;
 }
 
+.about_projectstone{
+    width: calc(100vw - 17px);
+    margin:auto;
+    text-align: center;
+}
+
+.logo_projectstone{
+
+    width: 260px;
+    height: 140px;
+    margin:auto;
+    background-image: url('../../img/main-site/logo-main-site.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
 
 
 .product {
@@ -180,6 +199,8 @@ ul.product_list{
     margin:auto;
 
 }
+
+
 
 .product_list li{
     margin: 5px auto 5px auto;
