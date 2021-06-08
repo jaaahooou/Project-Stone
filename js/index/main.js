@@ -1,7 +1,9 @@
 let itemBackground = [...document.querySelectorAll('.item_background')];
-let white = [...document.querySelectorAll(".white")];
+
 const list = document.querySelectorAll('#list li');
 const tilesDescriptions = document.querySelectorAll('.item_1_descritpion h1');
+const indexPageContentWrapper = document.querySelector('.main_page_content_wrapper');
+const productList = document.querySelector('.product_list');
 
 
 
@@ -22,26 +24,82 @@ const descriptions = [
 
 
 
-// ===========  create descritpions of tiles ===========
+// ===========  create main tiles ===========
+
+const createMainTiles = () =>{
+
+    for (let i = 0; i < descriptions.length; i++){
+
+    // ===========  create items ===========
+
+            const product = document.createElement("li");
+            product.classList.add('product');
+            product.classList.add(`item_${i+1}`);
+
+    // ===========  create backgrounds ===========
+
+            const itemBackground = document.createElement('div');
+            itemBackground.classList.add(`item_${i+1}_background`);
+            itemBackground.classList.add(`item_background`);
 
 
+    // ===========  white backgrounds ===========  
+    
+            const whiteBackground = document.createElement("div");
+            whiteBackground.classList.add('white');
+            whiteBackground.classList.add('hidden');
 
-const createDescritionsOfTiles = (i) =>{
-   
-    tilesDescriptions[i].innerText = `${descriptions[i].description}`;
+// ===========  create buttons =========== 
 
+            const  buyButton = document.createElement("div");
+            buyButton.classList.add('button');
+            buyButton.innerText = "Zobacz w sklepie";
+
+
+ // ===========  create descriptions ===========   
+ 
+            const itemDescriptionWrapper = document.createElement('div');
+            itemDescriptionWrapper.classList.add('item_description_wrapper');
+            
+
+
+ // ===========  create description headers ===========
+
+            const descriptionHeader = document.createElement('h1');
+            descriptionHeader.classList.add('item_description')
+            descriptionHeader.innerText = `${descriptions[i].description}`
+
+
+            itemDescriptionWrapper.appendChild(descriptionHeader);
+            itemBackground.appendChild(itemDescriptionWrapper);
+            whiteBackground.appendChild(buyButton);
+            itemBackground.appendChild(whiteBackground);
+            productList.appendChild(product);
+
+            product.appendChild(itemBackground)
+    }
 }
 
+createMainTiles();
 
+
+
+
+
+window.addEventListener("DOMContentLoaded",()=>{
+    
+    let white = [...document.querySelectorAll(".white")];
+    const loadedList = document.querySelectorAll('#list li');
+    console.log(loadedList);
 
 // ===========  main inspiration for high resolution ===========
 
-for (let i = 0; i < list.length; i++) {
+for (let i = 0; i < loadedList.length; i++) {
 
-    createDescritionsOfTiles(i);
+    
+    
 
-    list[i].addEventListener('click', () => {
-       
+    loadedList[i].addEventListener('click', () => {
         
         mainInspirationsForMobilePhones(i);
 
@@ -49,12 +107,12 @@ for (let i = 0; i < list.length; i++) {
 
     })
 
-    list[i].addEventListener('mouseover', () => {
+    loadedList[i].addEventListener('mouseover', () => {
         white[i].classList.remove('hidden')
 
     })
 
-    list[i].addEventListener('mouseleave', () => {
+    loadedList[i].addEventListener('mouseleave', () => {
         white[i].classList.add('hidden')
     })
 
@@ -64,24 +122,47 @@ for (let i = 0; i < list.length; i++) {
 }
 
 
-
-
-
-
-
-
-
-
 // ===========  main inspiration for mobile phones ===========
-
 const mainInspirationsForMobilePhones = (i) =>{
+   
     if(window.innerWidth < 1023){
-                console.log(descriptions[i].url);
+
+        white[i].addEventListener('click',()=>{
+            if(white[i].classList.contains('hidden')){
+             
+                white[i].classList.remove('hidden')
+            }else {
+                white[i].classList.add('hidden')
+            }
+   
+        })
     
     }
     
 
 }
+
+        
+
+
+
+} )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

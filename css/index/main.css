@@ -110,7 +110,7 @@ li.item_1 {
     background-image: url('../../img/main-site/ambiente-cuarzo-reno-120x120-ok_web.jpg');
 }
 
-.item_1_descritpion {
+.item_description_wrapper {
     position: absolute;
     width: var(--item-width);
     bottom: 0;
