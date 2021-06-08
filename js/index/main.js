@@ -138,31 +138,9 @@ const mainInspirationsForMobilePhones = (i) =>{
         })
     
     }
-    
+  
 
 }
 
-        
-
-
-
 } )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
