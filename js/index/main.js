@@ -28,14 +28,11 @@ const descriptions = [
 
 const createDescritionsOfTiles = (i) =>{
    
-
     tilesDescriptions[i].innerText = `${descriptions[i].description}`;
-    
-    
-
-   
 
 }
+
+
 
 // ===========  main inspiration for high resolution ===========
 

@@ -65,14 +65,38 @@
 }
 
 .product:hover {
-    cursor: pointer;
+    
     border: 1px solid black;
-}
+} 
 
+
+.item_1_background,
+.item_2_background,
+.item_3_background,
+.item_4_background,
+.item_5_background,
+.item_6_background,
+.item_7_background,
+.item_8_background,
+.item_9_background {
+    position: relative;
+    width: var(--item-width);
+    height: var(--item-height);
+    margin: 5px;
+    background-size: cover;;
+}
 
 .white {
-    display : none;
+    position : absolute;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
 }
+
+
+
+
+
 
 
 .button {
@@ -89,20 +113,7 @@
     font-size: 12px;
 }
 
-.item_1_background,
-.item_2_background,
-.item_3_background,
-.item_4_background,
-.item_5_background,
-.item_6_background,
-.item_7_background,
-.item_8_background,
-.item_9_background {
-    width: var(--item-width);
-    height: var(--item-height);
-    margin: 5px;
-    background-size: cover;;
-}
+
 
 h1.item_description {
     text-transform: uppercase;
