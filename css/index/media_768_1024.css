@@ -98,14 +98,15 @@
 
 .small_photo{
     position: absolute;
-    height: 40%;
-    width: 200px;
+     height: 40%;
+    width: 200px; 
     background-color: black;
     left: 50%;
     top:10%;
     transform: translateX(-50%);
     z-index:3;
     background-size: cover;
+    border: 2px solid white;
 }
 
 .closing_button{
