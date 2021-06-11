@@ -112,8 +112,8 @@ window.addEventListener("DOMContentLoaded",()=>{
     let white = [...document.querySelectorAll(".white")];
     const smallPhotosLoaded = [...document.querySelectorAll(".small_photo")];
     const loadedList = document.querySelectorAll('#list li');
-    
-    console.log(smallPhotosLoaded);
+    const closingButtonLoaded = [...document.querySelectorAll('.closing_button')];
+  
 
 
 
@@ -163,14 +163,17 @@ const mainInspirationsForMobilePhones = (i) =>{
         
 
             if( (smallPhotosLoaded[i].classList.contains('hidden'))){
+                console.log(i);
                 console.log('Działam');
                 smallPhotosLoaded[i].classList.remove("hidden");
                  white[i].classList.remove('hidden');
+                 closingButtonLoaded[i].classList.remove('hidden')
                
 
             }else {
                 white[i].classList.add('hidden');
                 smallPhotosLoaded[i].classList.add("hidden");
+                closingButtonLoaded[i].classList.add('hidden')
             }
    
         
