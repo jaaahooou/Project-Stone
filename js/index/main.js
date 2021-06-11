@@ -128,6 +128,15 @@ for (let i = 0; i < loadedList.length; i++) {
 
     loadedList[i].addEventListener('click', () => {
         
+
+        for(let itemNumber = 0; itemNumber < loadedList.length; itemNumber++){
+            white[itemNumber].classList.add('hidden');
+            smallPhotosLoaded[itemNumber].classList.add("hidden")
+        }
+       
+
+        console.log(i);
+
         mainInspirationsForMobilePhones(i);
 
 
@@ -163,8 +172,8 @@ const mainInspirationsForMobilePhones = (i) =>{
         
 
             if( (smallPhotosLoaded[i].classList.contains('hidden'))){
-                console.log(i);
-                console.log('Działam');
+               
+              
                 smallPhotosLoaded[i].classList.remove("hidden");
                  white[i].classList.remove('hidden');
                  closingButtonLoaded[i].classList.remove('hidden')
