@@ -8,6 +8,7 @@ const productList = document.querySelector('.product_list');
 
 
 
+
 const descriptions = [
         { id: 1, description : "cuarzo reno", url: '../../img/main-site/small_images/cuarzo-reno.jpg'},
         { id: 2, description : "loire arena", url: '../../img/main-site/small_images/loire-arena.jpg'},
@@ -60,21 +61,41 @@ const createMainTiles = () =>{
  
             const itemDescriptionWrapper = document.createElement('div');
             itemDescriptionWrapper.classList.add('item_description_wrapper');
-            
+
+
+// ===========  create small photos =========== 
+
+            const smallPhoto = document.createElement("div");
+            smallPhoto.classList.add('hidden');
+            smallPhoto.classList.add('small_photo');
+            smallPhoto.style.backgroundImage = `url("${descriptions[i].url}")`
+
 
 
  // ===========  create description headers ===========
 
             const descriptionHeader = document.createElement('h1');
-            descriptionHeader.classList.add('item_description')
-            descriptionHeader.innerText = `${descriptions[i].description}`
+            descriptionHeader.classList.add('item_description');
+            descriptionHeader.innerText = `${descriptions[i].description}`;
 
+
+ // ===========  create closing buttons  ===========
+
+            const closingButton = document.createElement('div');
+            closingButton.classList.add('hidden');
+            closingButton.classList.add('closing_button');
+            
+            closingButton.innerText = "x";
+
+ // ===========  Add items to DOM ===========
 
             itemDescriptionWrapper.appendChild(descriptionHeader);
             itemBackground.appendChild(itemDescriptionWrapper);
             whiteBackground.appendChild(buyButton);
             itemBackground.appendChild(whiteBackground);
             productList.appendChild(product);
+            itemBackground.appendChild(smallPhoto);
+            itemBackground.appendChild(closingButton);
 
             product.appendChild(itemBackground)
     }
@@ -89,11 +110,17 @@ createMainTiles();
 window.addEventListener("DOMContentLoaded",()=>{
     
     let white = [...document.querySelectorAll(".white")];
+    const smallPhotosLoaded = [...document.querySelectorAll(".small_photo")];
     const loadedList = document.querySelectorAll('#list li');
-    console.log(loadedList);
+    
+    console.log(smallPhotosLoaded);
+
+
 
 // ===========  main inspiration for high resolution ===========
 
+
+ 
 for (let i = 0; i < loadedList.length; i++) {
 
     
@@ -107,15 +134,20 @@ for (let i = 0; i < loadedList.length; i++) {
 
     })
 
-    loadedList[i].addEventListener('mouseover', () => {
-        white[i].classList.remove('hidden')
+    if(window.innerWidth > 1023){
+        loadedList[i].addEventListener('mouseover', () => {
+            white[i].classList.remove('hidden')
+    
+    
+        })
+    
+        loadedList[i].addEventListener('mouseleave', () => {
+            white[i].classList.add('hidden')
+        })
+    
+    }
 
-    })
-
-    loadedList[i].addEventListener('mouseleave', () => {
-        white[i].classList.add('hidden')
-    })
-
+  
 
 
 
@@ -126,16 +158,22 @@ for (let i = 0; i < loadedList.length; i++) {
 const mainInspirationsForMobilePhones = (i) =>{
    
     if(window.innerWidth < 1023){
+        console.log("działam 1");
 
-        white[i].addEventListener('click',()=>{
-            if(white[i].classList.contains('hidden')){
-             
-                white[i].classList.remove('hidden')
+        
+
+            if( (smallPhotosLoaded[i].classList.contains('hidden'))){
+                console.log('Działam');
+                smallPhotosLoaded[i].classList.remove("hidden");
+                 white[i].classList.remove('hidden');
+               
+
             }else {
-                white[i].classList.add('hidden')
+                white[i].classList.add('hidden');
+                smallPhotosLoaded[i].classList.add("hidden");
             }
    
-        })
+        
     
     }
   
